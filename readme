@@ -1,6 +1,11 @@
 # Task 1
 Dodaj na końcu tego pliku przykladowa funkcje zawierającą Twoje imie i nazwisko:
 
+void jan_kowalski(void)
+{
+	Jan Kowalski
+}
+
 void Katarzyna_Najmrodzka(void)
 {
 	Katarzyna Najmrodzka
