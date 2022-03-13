@@ -3,9 +3,20 @@
 
 
 
+
 List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
+	if (NULL!= pRoot)
+	{
+		pRoot->pPlateNum = (char*)"pRoot";
+		pRoot->entryTime = std::time(nullptr);
+		pRoot->pNext = NULL;
+
+		return pRoot;
+	}
+
+	
 	
 	return pRoot;
 }
