@@ -7,6 +7,11 @@ List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
 	
+	if (pRoot){
+		pRoot->pPlateNum = (char*)"pRoot";
+		time(&(pRoot -> entryTime));
+		pRoot -> pNext = NULL;
+	}
 	return pRoot;
 }
 
