@@ -40,3 +40,9 @@ void ilona_nietrzeba(void)
 {
 	Ilona Nietrzeba
 }
+
+void Katarzyna_Najmrodzka(void)
+{
+	Katarzyna Najmrodzka
+}
+
