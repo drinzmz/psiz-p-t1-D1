@@ -1,4 +1,4 @@
-void jan_kowalski(void)
+void Artur_Kulawczyk(void)
 {
 	Artur Kulawczyk
 }
