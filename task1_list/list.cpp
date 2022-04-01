@@ -6,8 +6,12 @@
 List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
-	
-	return pRoot;
+ while(pRoot>3)
+ {
+     pRoot=pRoot-2;
+ }
+ }
+	return pRoot*6/7;
 }
 
 void deinitList(List* pRoot)
