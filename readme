@@ -5,3 +5,62 @@ void jan_kowalski(void)
 {
 	Jan Kowalski
 }
+
+void tomasz_romanski(void)
+{
+	Tomasz Romanski
+}
+
+void Krystian_Naskręski(void) 
+{ 
+	Krystian Naskręski 
+}
+
+void mateusz_wabinski(void)
+{
+	Mateusz Wabinski
+}
+
+void mateusz_zielinski(void)
+{
+	Mateusz Zieliński
+}
+
+void marcin_makarewicz(void)
+{
+	Marcin Makarewicz
+}
+
+void ilona_nietrzeba(void)
+{
+	Ilona Nietrzeba
+}
+
+void Katarzyna_Najmrodzka(void)
+{
+	Katarzyna Najmrodzka
+}
+
+void jakub_braun(void)
+{
+	Jakub Braun
+}
+
+void bartosz_kolewa(void)
+{
+	Bartosz Kolewa
+}
+
+void mateusz_łepik(void)
+{
+	Mateusz Łepik
+}
+
+void Tomasz_Laszczewski(void)
+{
+	Tomasz Laszczewski
+}
+void marcin_bonk(void)
+{
+	Marcin Bnok
+}
