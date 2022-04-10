@@ -2,7 +2,6 @@
 #include "list.h"
 #include <ctime>
 
-List mojaLista;
 
 int main()
 {
