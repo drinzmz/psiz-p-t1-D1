@@ -29,7 +29,6 @@ void printAll(List* pRoot) {
 
 }
 
-int numberOfElements(List* pRoot)
-{
+int numberOfElements(List* pRoot) {
 	return 0;
 }
