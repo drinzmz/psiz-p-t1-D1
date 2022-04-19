@@ -28,7 +28,14 @@ void removeCar(List* pRoot, char* plateNum)
 
 //func will print all cars in the list
 void printAll(List* pRoot) {
-
+	if (pRoot) {
+		List* pCurrent = pRoot;
+		
+		while (pCurrent) {
+			std::cout << "pPlateNum: " << pCurrent->pPlateNum << ", entryTime: " << ctime(&pCurrent->entryTime) << std::endl;
+			pCurrent = pCurrent->pNext;
+		}
+	}
 }
 
 int numberOfElements(List* pRoot) {
