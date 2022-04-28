@@ -38,6 +38,7 @@ void printAll(List* pRoot) {
 	}
 }
 
+//Function that assigns a number to the element
 int numberOfElements(List* pRoot) {
 	return 0;
 }
