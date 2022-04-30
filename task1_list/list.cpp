@@ -34,3 +34,11 @@ void printAll(List* pRoot) {
 int numberOfElements(List* pRoot) {
 	return 0;
 }
+
+
+
+//func will print a new car 
+void printNewCar(List* pRoot) 
+{
+	
+}
