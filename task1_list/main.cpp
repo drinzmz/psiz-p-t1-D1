@@ -1,6 +1,5 @@
 ﻿#include "pch.h"
 #include "list.h"
-#include <ctime>
 
 
 int main()
