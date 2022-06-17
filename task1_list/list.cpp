@@ -9,7 +9,10 @@ List* initList(void)
 	
 	return pRoot;
 }
-
+/// <summary>
+/// summary komentarz
+/// </summary>
+/// <param name="pRoot"></param>
 void deinitList(List* pRoot)
 {
 	free(pRoot);
