@@ -2,19 +2,13 @@
 #include "list.h"
 
 
-
-List* initList(void)
-{
-	List* pRoot = (List*)malloc(sizeof(*pRoot));
-	
-	return pRoot;
-}
-
 void deinitList(List* pRoot)
 {
 	free(pRoot);
 	pRoot = NULL;
 }
+
+
 // function adding a car to the list
 void addCar(List* pRoot, char* plateNum)
 {
@@ -24,6 +18,14 @@ void addCar(List* pRoot, char* plateNum)
 void removeCar(List* pRoot, char* plateNum)
 {
 
+}
+
+//init list void
+List* initList(void)
+{
+	List* pRoot = (List*)malloc(sizeof(*pRoot));
+
+	return pRoot;
 }
 
 //func will print all cars in the list
