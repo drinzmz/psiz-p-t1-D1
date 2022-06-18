@@ -8,7 +8,12 @@ typedef struct List {
 	struct List* pNext;
 } List;
 
-List*initList(void);
+List*initList(void) {
+	List* new_one = (List*)malloc(sizeof(List));
+	return new_one;
+}
+
+
 void deinitList(List* pRoot);
 //function for adding a car
 void addCar(List* pRoot, char* plateNum);
