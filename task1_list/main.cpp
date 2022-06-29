@@ -3,7 +3,7 @@
 #include <ctime>
 
 List mojaLista;
-
+// comment to ext 3
 int main()
 {
 	List* pFirstFloor = initList();
